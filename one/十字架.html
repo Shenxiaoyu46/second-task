@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>十字架</title>
+</head>
+<style type="text/css">
+div {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+.first {
+    background-color: #ff0000;
+    position: relative;
+    left: 100px;
+    box-shadow: -5px -5px 5px 0px;
+
+	
+}
+
+.second {
+    background-color: #ffff00;
+    display: inline-block;
+    float: left;
+    margin: 10px 0px 0px -10px;
+    box-shadow: -5px 5px 5px 0px;
+}
+
+.third {
+    background-image: url(../css/doraemon.png);
+    background-color: #0FF4E2;
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    float: left;
+    margin: 10px;
+    box-shadow:-5px -5px 5px 0px inset;
+}
+
+.fourth {
+    background-color: #0000ff;
+    display: inline-block;
+    float: left;
+    margin: 10px 0px 0px 0px;
+    box-shadow: 5px 5px 5px 0px;
+}
+
+.five {
+    background-color: #ff00ff;
+    position: relative;
+    left: 100px;
+    box-shadow: 5px 5px 5px 0px;
+}
+
+.outer1 {
+    height: 120px;
+    width: 320px;
+}
+
+.outer {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -150px;
+    margin-left: -150px;
+}
+</style>
+
+<body>
+    <div class="outer">
+        <div class="first"></div>
+        <div class="outer1">
+            <div class="second"></div>
+            <div class="third"></div>
+            <div class="fourth"></div>
+        </div>
+        <div class="five"></div>
+    </div>
+</body>
+
+</html>
