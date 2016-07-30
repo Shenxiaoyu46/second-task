@@ -1,0 +1,121 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .con {
+        width: 150px;
+        height: 150px;
+        background-color: rgb(255, 153, 211);
+        overflow-y: scroll;
+    }
+    
+    .con1 {
+        width: 150px;
+        height: 150px;
+        background-color: rgb(255, 153, 211);
+        -webkit-column-rule-style: solid;
+        -webkit-column-rule-color: #ffffff;
+        -webkit-column-width: 100px;
+        -moz-column-rule-style: solid;
+        -moz-column-rule-color: #ffffff;
+        -moz-column-width: 100px;
+        overflow-x: scroll;
+    }
+    
+    .pad {
+        margin: 50px;
+        padding: 30px;
+        width: 150px;
+        height: 150px;
+        background-color: rgb(0, 255, 245);
+        border: 5px solid rgb(255, 185, 236);
+        display: inline-block;
+    }
+    
+    .pad1 {
+        box-sizing: border-box;
+        padding: 30px;
+        margin: 50px;
+        width: 220px;
+        height: 220px;
+        background-color: rgb(0, 255, 245);
+        border: 5px solid rgb(255, 185, 236);
+        display: inline-block;
+    }
+    
+    .class {
+        margin-top: 50px;
+        margin-right: 300px;
+        display: inline-block;
+        float: right;
+    }
+    
+    .class1 {
+        display: -webkit-flex;
+        display: -moz-flex;
+        background-color: #ff0000;
+        width: 500px;
+        height: 200px;
+        flex-direction: column;
+    }
+    
+    .con2 {
+        width: 200px;
+        height: 200px;
+        -webkit-flex: 1;
+        -moz-flex: 1;
+        order: 3;
+        background-color: rgb(255, 185, 236);
+    }
+    
+    .con3 {
+        width: 200px;
+        -webkit-flex: 2;
+        -moz-flex: 2;
+        order: 1;
+        background-color: rgb(0, 255, 245);
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+    }
+    
+    .con4 {
+        width: 200px;
+        height: 200px;
+        -webkit-flex: 1;
+        -moz-flex: 1;
+        order: 2;
+        background-color: rgb(255, 153, 211);
+    }
+    
+    .class2 {
+        margin-top: 50px;
+        margin-right: 300px;
+        display: inline-block;
+        float: right;
+    }
+    
+    .class3 {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        background-color: #03FFCF;
+        width: 500px;
+        height: 200px;
+        text-indent: 20px;
+    }
+    
+    .class4 {
+        width: 700px;
+        height: 300px;
+        background-color: rgb(255, 153, 211);
+        display: -webkit-box;
+        -webkit-box-pack: center;
+        -webkit-box-align: center;
+        display: -moz-box;
+        -moz-box-pack: center;
+        -moz-box-align: center;
+    }
+    
+    .picture {
+        float: left;
+    }
